@@ -1,0 +1,1049 @@
+#dimensions {
+    position: fixed;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    color: 333;
+}
+
+a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+a:visited {
+    color: #fff;
+}
+
+ul {
+    list-style: none;
+}
+
+header {
+   height: 800px;
+}
+
+header #pasta-dish{
+    background: url(img/bg2.jpg) no-repeat center center ;
+    background-position: center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+    background-attachment: fixed;
+    width: 100%;
+    height: 100%;
+}
+
+header #pasta-dish .overlay {
+    background: rgba(0, 0, 0, .2);
+    height: 100%;
+}
+
+header #pasta-dish .overlay #company-name {
+    position: absolute;
+    margin: 20px 0 0 20px;
+}
+
+header #pasta-dish .overlay #company-name p {
+    color: #ffffff;
+    text-transform: uppercase;
+    font-size: 2.5em;
+    font-family: 'Courgette', cursive;
+    text-shadow: 1px 2px 2px rgba(150, 150, 150, 1);
+}
+
+header #pasta-dish .overlay #menu {
+    position: absolute;
+    right: 5%;
+    margin: 20px 10px 0 0;
+}
+
+header #pasta-dish .overlay #menu ul {
+    margin: 0;
+    padding: 0;
+}
+
+header #pasta-dish .overlay #menu ul li {
+    display: inline-block;
+    color: white;
+    padding: 10px;
+    font-family: 'Courgette', cursive;
+    text-shadow: 1px 1px 2px rgba(150, 150, 150, 1);
+}
+
+header #pasta-dish .overlay #menu a:hover {
+    color: #ccbc71;
+}
+
+header #pasta-dish .overlay #center-text {
+    position: absolute;
+    top: 30%;
+    left: 35%;
+    text-align: center;
+}
+
+header #pasta-dish .overlay #center-text p {
+    color: #ffffff;
+    font-size: 4.5em;
+    font-family: 'Great Vibes', cursive;
+    text-shadow: 1px 3px 3px rgba(150, 150, 150, 1);
+}
+
+header #pasta-dish .overlay #location {
+    position: absolute;
+    left: 45%;
+    top: 68%;
+}
+
+header #pasta-dish .overlay #location p{
+    text-shadow: 1px 2px 2px rgba(150, 150, 150, 1);
+    padding: 5px;
+    color: #ffffff;
+    font-size: 1.7em;
+    font-family: 'Great Vibes', cursive;
+    text-align: center;
+}
+
+header #pasta-dish .overlay #arrow {
+    color: #ffffff;
+    position: absolute;
+    left: 50%;
+    bottom: 5%;
+    font-size: 2em;
+    transition: all .2s ease-in-out;
+    cursor: pointer;
+}
+
+header #pasta-dish .overlay #arrow:hover {
+    transform: scale(2);
+}
+
+
+/* ///// Hours And Reservation ///// */
+#open1 {
+    background: #fff;
+    height: 500px;
+    width: 100%;
+    position: relative;
+    font-family: 'Gentium Basic', serif;
+}
+
+#open1 .section-title {
+    position: absolute;
+    right: 39%;
+    margin: 30px 0 0 0;
+}
+
+#open1 .section-title h1 {
+    font-family: 'Courgette', cursive;
+    font-size: 2.5em;
+    margin: 0 0 60px 0;
+    color: #333;
+}
+
+#open1 #hours {
+    position: absolute;
+    top: 20%;
+    left: 20%;
+    display: inline-block;
+    text-align: center;
+}
+
+#open1 #hours h3 {
+    Padding: 5px;
+    color: #333;
+}
+
+#open1 #hours p {
+    padding: 0 0 5px 0;
+    color: #333;
+    font-family: 'Gentium Basic', serif;
+}
+
+#open1 #reservations {
+    position: absolute;
+    right: 20%;
+    top:20%;
+}
+
+#open1 #reservations form #date {
+    display: inline-block;
+    text-align: center;
+    padding: 0 20px 0 20px;
+    color: #333;
+}
+
+#open1 #reservations form #time {
+    display: inline-block;
+    text-align: center;
+    padding: 0 20px 0 20px;
+    color: #333;
+}
+
+#open1 #reservations form #guest {
+    display: inline-block;
+    text-align: center;
+    padding: 0 20px 0 20px;
+    color: #333;
+}
+
+#open1 #reservations form #guest #people {
+    height: 25px;
+    color: #333;
+}
+
+#open1 #reservations form #button {
+    text-align: center;
+    margin: 30px 0 20px 0;
+}
+
+#open1 #reservations form button {
+    background: #262526;
+    color: #ffffff;
+    -webkit-border-radius: 11;
+    -moz-border-radius: 11;
+    border-radius: 11px;
+    font-size: 15px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+    cursor: pointer;
+    margin: 0 0 10px 0;
+}
+
+#open1 #reservations form button:hover {
+    background: #AFA490;
+}
+
+#reservations hr {
+    overflow: visible;
+    padding: 0;
+    border: none;
+    border-top: medium double #333;
+    color: #333;
+    text-align: center;
+}
+#reservations hr:after {
+    content: "§";
+    display: inline-block;
+    position: relative;
+    top: -0.7em;
+    font-size: 1.5em;
+    padding: 0 0.25em;
+    background: white;
+}
+
+#reservations #events {
+    position: absolute;
+    margin: 0 0 10px 0;
+}
+
+#reservations #events h1 {
+    color: #333;
+    font-family: 'Courgette', cursive;
+    text-align: center;
+}
+#reservations #events p {
+    color: #333;
+    font-family: 'Gentium Basic', serif;
+}
+
+#reservations a {
+    color: #614a23;
+    text-decoration: underline;
+}
+
+#reservations a:hover {
+    color: #AFA490;
+}
+
+
+/* ///////  //////// */
+#specialties {
+    height: 400px;
+    position: relative;
+}
+
+#specialties #dessert {
+    height: 80%;
+    width: 30%;
+    position: absolute;
+    top: 5%;
+    left: 15%;
+    background: #F2F1E7;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+#specialties #dessert #cake-img {
+    background: url(img/cake1.jpg);
+    background-position: 20%;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  width: 60%;
+  height: 100%;
+  float: right;
+}
+
+#specialties #dessert .text-box {
+    height: 100%;
+    width: 40%;
+    display: inline-block;
+    text-align: center;
+}
+
+#specialties #dessert h3 {
+    text-transform: uppercase;
+    text-align: center;
+    padding: 30px 0 0 0;
+    font-family: 'Courgette', cursive;
+}
+
+#specialties #dessert p {
+    position: relative;
+    top: 10%;
+    padding: 0 5px 0 5px;
+    font-family: 'Gentium Basic', serif;
+}
+
+#specialties #dessert .text-box button {
+    position: absolute;
+    cursor: pointer;
+    bottom: 5%;
+    left: 10%;
+    font-family: 'Courgette', cursive;
+    border-radius: 10px;
+    padding: 5px 10px 5px 10px;
+}
+
+#specialties #dessert:hover {
+    color:white;
+    background: #AFA490;
+}
+
+#specialties #wine {
+    height: 80%;
+    width: 30%;
+    position: absolute;
+    right: 15%;
+    top: 5%;
+    background: #F2F1E7;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+#specialties #wine .text-box {
+    height: 100%;
+    width: 40%;
+    display: inline-block;
+    text-align: center;
+}
+
+#specialties #wine #bottles-img {
+    background: url(img/wine2.jpeg) no-repeat center center;
+    background-position: center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  width: 60%;
+  height: 100%;
+  float: right;
+}
+
+#specialties #wine:hover {
+    color:white;
+    background: #AFA490;
+}
+
+#specialties #wine h3 {
+    text-transform: uppercase;
+    text-align: center;
+    padding: 30px 0 0 0;
+    font-family: 'Courgette', cursive;
+}
+
+#specialties #wine p {
+    position: relative;
+    top: 10%;
+    padding: 0 5px 0 5px;
+    font-family: 'Gentium Basic', serif;
+}
+
+#specialties #wine .text-box button {
+    position: absolute;
+    cursor: pointer;
+    bottom: 5%;
+    left: 10%;
+    font-family: 'Courgette', cursive;
+    border-radius: 10px;
+    padding: 5px 10px 5px 10px;
+}
+
+
+/* ///// Large dish window////// */
+#pizza {
+    background: url(img/bg5.jpg) no-repeat center center;
+    background-position: center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+    background-attachment: fixed;
+    height: 550px;
+}
+
+#pizza .overlay {
+    background: rgba(0, 0, 0, .1);
+    height: 100%;
+    width: 100%;
+}
+
+
+/* ////// La Famiglia ////// */
+#open2 {
+    height: 600px;
+}
+
+#open2 p, h4, li {
+    color: #333;
+}
+
+#open2 h1 {
+    text-align: center;
+    margin: 20px 0 10px 0;
+    font-family: 'Courgette', cursive;
+}
+
+#open2 .line {
+    width: 80%;
+    margin: 0 auto;
+}
+
+#open2 .line2 {
+    position: relative;
+    bottom: -15%;
+    width: 80%;
+    margin: 0 auto;
+}
+
+#open2 hr {
+    overflow: visible;
+    padding: 0;
+    border: none;
+    border-top: medium double #333;
+    color: #333;
+    text-align: center;
+}
+#open2 hr:after {
+    content: "§";
+    display: inline-block;
+    position: relative;
+    top: -0.7em;
+    font-size: 1.5em;
+    padding: 0 0.25em;
+    background: white;
+}
+
+.bold {
+    font-weight: 800;
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+}
+
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.flip-container {
+    perspective: 1000px;
+    position: relative;
+    margin: 0 20px 0 20px;
+    display: inline-block;
+    left: 15%;
+    top: 30%;
+}
+
+.flip-container:hover .flipper, .flip-container.hover .flipper {
+	transform: rotateY(180deg);
+}
+
+.flip-container, .front, .back {
+	width: 320px;
+	height: 365px;
+}
+
+.flipper {
+	transition: 0.6s;
+	transform-style: preserve-3d;
+	position: relative;
+}
+
+.front, .back {
+	backface-visibility: hidden;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+.front {
+	z-index: 2;
+	transform: rotateY(0deg);
+}
+
+.back {
+	transform: rotateY(180deg);
+}
+
+#about-beth, #about-tammy, #about-jerry {
+    display: none;
+}
+
+
+/* /// BAr Stools //// */
+#table {
+    background: url(img/bg3.jpeg) no-repeat center 60%;
+    background-position: center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+    background-attachment: fixed;
+    height: 750px;
+}
+
+#table .overlay {
+    background: rgba(0, 0, 0, .4);
+    height: 100%;
+    width: 100%;
+    position: relative;
+}
+
+#table .overlay p {
+    position: absolute;
+    top: 50%;
+    left: 17%;
+    font-size: 4em;
+    font-family: 'Great Vibes', cursive;
+    color: white;
+}
+
+
+/* ///// Footer ////// */
+footer {
+    background: #AFA490;
+    height: 100px;
+    position: relative;
+}
+
+footer #copyright {
+    color: #ffffff;
+    position: absolute;
+    bottom: 1%;
+    right: 5%;
+}
+
+#address {
+    color: #ffffff;
+    position: absolute;
+    top: 15%;
+    left: 10%;
+}
+
+footer h4 {
+    color: #ffffff;
+    position: absolute;
+    font-size: 3em;
+    top: 15%;
+    right: 10%;
+    font-family: 'Courgette', cursive;
+}
+
+footer ul {
+    position: absolute;
+    top: 20%;
+    right: 50%;
+}
+
+footer ul li {
+    display: inline-block;
+}
+
+footer ul li .fa {
+    color: white;
+    font-size: 3em;
+    padding: 0 10px 0 10px;
+}
+
+@media (max-width: 1324px) {
+    .flip-container {
+        left: 0%;
+    }
+}
+
+@media (max-width: 1100px) {
+    #menu ul {
+        display: none;
+    }
+
+    header #pasta-dish .overlay #company-name {
+        margin: 0;
+        top: 10%;
+        left: 20%;
+    }
+
+     header #pasta-dish .overlay #company-name p {
+        font-size: 4.5em;
+        text-align: center;
+        margin: 0;
+    }
+
+    header #pasta-dish .overlay #center-text {
+        position: absolute;
+        top: 30%;
+        left: 15%;
+        left: 0%;
+        width: 100%;
+    }
+
+    #open1 {
+        height: 700px;
+    }
+
+    #open1 .section-title {
+        position: absolute;
+        right: 27%;
+        margin: 25px 0 0 0;
+        width: 100%;
+        left: 0;
+    }
+
+    #open1 .section-title h1 {
+        padding: 0;
+        margin: 0;
+        text-align: center;
+    }
+
+    #open1 #hours {
+        width: 100%;
+        left: 0;
+        top: 15%;
+    }
+
+    #open1 #reservations {
+        top:50%;
+        left: 25%;
+    }
+
+    #specialties {
+        height: 900px;
+        display: inline-block;
+        width: 100%;
+    }
+
+    #specialties #dessert {
+        position: relative;
+        top: 5%;
+        left: 10%;
+        width: 80%;
+        height: 40%;
+    }
+
+    #specialties #wine {
+        position: relative;
+        top: 10%;
+        left: 10%;
+        width: 80%;
+        height: 40%;
+    }
+    
+    #pizza {
+        height: 700px;
+    }
+
+    #open2 {
+        height: 1550px;
+    }
+
+    #beth {
+        position: absolute;
+        left: 15%;
+    }
+
+    #about-beth {
+        display: block;
+        width: 20%;
+        position: absolute;
+        right: 25%;
+    }
+
+    #tammy {
+        display: block;
+        width: 20%;
+        position: relative;
+        left: 45%;
+        top: 31%;
+    }
+
+    #about-tammy {
+        display: block;
+        width: 20%;
+        position: relative;
+        left: 20%;
+        top: 7%;
+    }
+
+    #jerry {
+        display: block;
+        width: 20%;
+        position: relative;
+        left: 14%;
+        top: 17%;
+    }
+
+    #about-jerry {
+        display: block;
+        width: 20%;
+        position: relative;
+        left: 53%;
+        top: -7%;;
+    }
+
+    .flip-container:hover .flipper, .flip-container.hover .flipper {
+        transform: none;
+    }
+
+    #open2 .line2 {
+        display: none;
+    }
+
+    #table .overlay p {
+        position: absolute;
+        display: inline-block;
+        left: 0;
+        text-align: center;
+    }
+
+    #address {
+        left: 2%;
+    }
+
+    footer h4 {
+        font-size: 2.5em;
+    }
+
+    footer ul li .fa {
+        font-size: 2.5em;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 960px) {
+    #menu ul {
+        display: none;
+    }
+
+    header #pasta-dish .overlay #company-name {
+        margin: 0;
+        position: absolute;
+        top: 10%;
+        left: 10%;
+    }
+
+     header #pasta-dish .overlay #company-name p {
+        font-size: 4.5em;
+        text-align: center;
+        margin: 0;
+    }
+
+    header #pasta-dish .overlay #center-text {
+        position: absolute;
+        top: 30%;
+        left: 15%;
+        left: 0%;
+        width: 100%;
+    }
+
+    #open1 {
+        height: 700px;
+    }
+
+    #open1 .section-title {
+        position: absolute;
+        right: 27%;
+        margin: 25px 0 0 0;
+        width: 100%;
+        left: 0;
+    }
+
+    #open1 .section-title h1 {
+        padding: 0;
+        margin: 0;
+        text-align: center;
+    }
+
+    #open1 #hours {
+        width: 100%;
+        left: 0;
+        top: 15%;
+    }
+
+    #open1 #reservations {
+        top:50%;
+    }
+
+    #specialties {
+        height: 900px;
+        display: inline-block;
+        width: 100%;
+    }
+
+    #specialties #dessert {
+        position: relative;
+        top: 5%;
+        left: 10%;
+        width: 80%;
+        height: 40%;
+    }
+
+    #specialties #wine {
+        position: relative;
+        top: 10%;
+        left: 10%;
+        width: 80%;
+        height: 40%;
+    }
+    
+    #pizza {
+        height: 700px;
+    }
+
+    #open2 {
+        height: 1550px;
+    }
+
+    #beth {
+        display: inline-block;
+        position: absolute;
+        left: 15%;
+    }
+
+    #about-beth {
+        display: block;
+        width: 20%;
+        position: absolute;
+        right: 20%;
+    }
+
+    #tammy {
+        display: block;
+        width: 20%;
+        position: relative;
+        left: 35%;
+        top: 31%;
+    }
+
+    #about-tammy {
+        display: block;
+        width: 20%;
+        position: relative;
+        left: 15%;
+        top: 7%;
+    }
+
+    #jerry {
+        display: block;
+        width: 20%;
+        position: relative;
+        left: 9%;
+        top: 13%;
+    }
+
+    #about-jerry {
+        display: block;
+        width: 20%;
+        position: relative;
+        left: 58%;
+        top: -11%;;
+    }
+
+    .flip-container:hover .flipper, .flip-container.hover .flipper {
+        transform: none;
+    }
+
+    #open2 .line2 {
+        display: none;
+    }
+
+    #table .overlay p {
+        position: absolute;
+        display: inline-block;
+        left: 0;
+        text-align: center;
+    }
+
+    #address {
+        left: 2%;
+    }
+
+    footer h4 {
+        font-size: 2.5em;
+    }
+
+    footer ul li .fa {
+        font-size: 2.5em;
+    }
+}
+
+@media only screen and (min-width: 568px) and (max-width: 768px) {
+    header #pasta-dish .overlay #company-name {
+        left: 6%;
+        top: 5%;
+    }
+
+    header #pasta-dish .overlay #center-text p {
+        font-size: 3.5em;
+    }
+
+    header #pasta-dish .overlay #center-text {
+        top: 35%;
+    }
+
+    #open1 #reservations {
+        left: 20%;
+    }
+
+    #open1 #reservations form #date {
+        padding: 5px;
+    }
+    
+    #open1 #reservations form #time {
+        padding: 5px;
+    }
+
+    #open1 #reservations form #guest {
+        padding: 5px;
+    }
+
+    #open1 #reservations form {
+        text-align: center;
+    }
+
+    #beth {
+        left: 5%;;
+    }
+
+    #about-beth {
+        right: 15%;
+        width: 25%;
+    }
+
+    #tammy {
+        left: 34%;
+    }
+
+    #about-tammy {
+        left: 10%;
+        width: 25%;
+    }
+
+    #jerry {
+        left: 5%;
+        top: 15%;
+    }
+
+    #about-jerry {
+        top: -9%;
+        left: 60%;
+        width: 25%;
+    }
+
+    footer h4 {
+        right: 10%;
+    }
+
+    footer ul {
+        left: 15%;
+    }
+
+    footer ul li .fa {
+        font-size: 2em;
+        padding: 2px;
+    }
+
+
+}
+
+@media only screen and (min-width: 240px) and (max-width: 568px) {
+    #menu ul {
+        display: none;
+    }
+
+    header #pasta-dish .overlay #company-name {
+      left: 5%;
+    }
+
+    header #pasta-dish .overlay #company-name p  {
+        font-size: 3.5em;
+    }
+
+    #open1 #reservations {
+        text-align: center;
+    }
+
+    #open1 #reservations form #date {
+        padding: 0 0 10px 0;
+    }
+
+    #specialties #dessert {
+        top: 13%;
+    }
+
+    #specialties #wine {
+        top: 15%;
+    }
+
+    #about-beth, #about-tammy, #about-jerry {
+        display: none;
+    }
+
+    .flip-container {
+        margin: 0;
+    }
+
+    #beth {
+        left: 10%;
+    }
+
+    #tammy {
+        left: 10%;
+    }
+
+    #jerry {
+        left: 10%;
+        top: 38%;
+    }
+
+    #table .overlay p {
+        top: 50%;
+    }
+
+    footer h4 {
+        font-size: 1.5em;
+        right: 5%;
+    }
+
+    footer ul {
+        top: 50%;
+        left: 18%;
+    }
+
+    footer ul li .fa {
+        font-size: 1.2em;
+        padding: 0 1px 0 1px;;
+    }
+}
